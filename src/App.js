@@ -8,32 +8,32 @@ export default function App() {
         <nav className="nav__container__actions">
           <ul>
             <li>
-              <Link activeClass="active" smooth spy to="about">
-                ABOUT
+              <Link activeClass="active" smooth spy to="home">
+                HOME
               </Link>
             </li>
             <li>
-              <Link activeClass="active" smooth spy to="projects">
-                PROJECTS
-              </Link>
-            </li>
-            <li>
-              <Link activeClass="active" smooth spy to="blog">
-                BLOG
+              <Link activeClass="active" smooth spy to="app">
+                APP
               </Link>
             </li>
             <li>
               <Link activeClass="active" smooth spy to="contact">
-                CONTACT ME
+                CONTACT
+              </Link>
+            </li>
+            <li>
+              <Link activeClass="active" smooth spy to="about">
+                ABOUT US
               </Link>
             </li>
           </ul>
         </nav>
       </header>
-      <section id="about">ABOUT</section>
-      <section id="projects">PROJECTS</section>
-      <section id="blog">BLOG</section>
-      <section id="contact">CONTACT ME</section>
+      <section id="home">HOME</section>
+      <section id="app">APP</section>
+      <section id="contact">CONTACT</section>
+      <section id="about">ABOUT US</section>
     </div>
   );
 }
